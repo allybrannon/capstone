@@ -2,43 +2,43 @@ import React, { Component } from "react";
 import "../App.css";
 
 class Signup extends Component {
-  state = {
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: "",
-    contact: "",
-  };
+  // state = {
+  //   firstName: "",
+  //   lastName: "",
+  //   email: "",
+  //   password: "",
+  //   contact: "",
+  // };
 
-  changeFirstname = (e) => {
-    this.setState({
-      firstName: e.target.value,
-    });
-  };
+  // changeFirstname = (e) => {
+  //   this.setState({
+  //     firstName: e.target.value,
+  //   });
+  // };
 
-  changeLastname = (e) => {
-    this.setState({
-      lastName: e.target.value,
-    });
-  };
+  // changeLastname = (e) => {
+  //   this.setState({
+  //     lastName: e.target.value,
+  //   });
+  // };
 
-  changeEmail = (e) => {
-    this.setState({
-      email: e.target.value,
-    });
-  };
+  // changeEmail = (e) => {
+  //   this.setState({
+  //     email: e.target.value,
+  //   });
+  // };
 
-  changePassword = (e) => {
-    this.setState({
-      password: e.target.value,
-    });
-  };
+  // changePassword = (e) => {
+  //   this.setState({
+  //     password: e.target.value,
+  //   });
+  // };
 
-  changeContact = (e) => {
-    this.setState({
-      contact: e.target.value,
-    });
-  };
+  // changeContact = (e) => {
+  //   this.setState({
+  //     contact: e.target.value,
+  //   });
+  // };
 
   //   handleSubmit = async (e) => {
   //     e.preventDefault();
