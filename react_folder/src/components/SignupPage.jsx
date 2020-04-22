@@ -1,4 +1,4 @@
-import React, { Component } from "./node_modules/react";
+import React, { Component } from "react";
 import "../App.css";
 
 class Signup extends Component {
@@ -40,46 +40,45 @@ class Signup extends Component {
     });
   };
 
-//   handleSubmit = async (e) => {
-//     e.preventDefault();
-//     const data = {
-//       first_name: firstName,
-//       last_name: lastName,
-//       email: email,
-//       user_password: password,
-//       contact_me: contact,
-//     };
-//     const url = "http://localhost:3001/signup";
+  //   handleSubmit = async (e) => {
+  //     e.preventDefault();
+  //     const data = {
+  //       first_name: firstName,
+  //       last_name: lastName,
+  //       email: email,
+  //       user_password: password,
+  //       contact_me: contact,
+  //     };
+  //     const url = "http://localhost:3001/signup";
 
-//     const response = await postAPI(url, data);
+  //     const response = await postAPI(url, data);
 
-//     if (response.status === 200) {
-//       alert("Thank you for signing up!");
-//     }
-//     if (response.status !== 200) {
-//       alert("Unable to signup. Please try again later or go to login page.");
-//     }
-//   };
+  //     if (response.status === 200) {
+  //       alert("Thank you for signing up!");
+  //     }
+  //     if (response.status !== 200) {
+  //       alert("Unable to signup. Please try again later or go to login page.");
+  //     }
+  //   };
 
-//   postAPI = async (url, data) => {
-//     const response = await fetch(url, {
-//       method: "POST",
-//       headers: {
-//         Accept: "application/json",
-//         "Content-Type": "application/json",
-//       },
-//       body: JSON.stringify(data),
-//     });
-//     return response;
-//   };
+  //   postAPI = async (url, data) => {
+  //     const response = await fetch(url, {
+  //       method: "POST",
+  //       headers: {
+  //         Accept: "application/json",
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(data),
+  //     });
+  //     return response;
+  //   };
 
   render() {
-
     const { firstName, lastName, email, password, contact } = this.state;
 
     return (
       <div>
-          <h1>Sign Up Here!</h1>
+        <h1>Sign Up Here!</h1>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
@@ -89,7 +88,7 @@ class Signup extends Component {
             value={firstName}
             required
           />
-          <br/>
+          <br />
           <input
             type="text"
             data-testid="messageText"
@@ -98,7 +97,7 @@ class Signup extends Component {
             value={lastName}
             required
           />
-          <br/>
+          <br />
           <input
             type="text"
             data-testid="messageText"
@@ -107,7 +106,7 @@ class Signup extends Component {
             value={email}
             required
           />
-          <br/>
+          <br />
           <input
             type="text"
             data-testid="messageText"
@@ -116,7 +115,7 @@ class Signup extends Component {
             value={password}
             required
           />
-          <br/>
+          <br />
           <input
             type="text"
             data-testid="messageText"
@@ -125,7 +124,7 @@ class Signup extends Component {
             value={contact}
             required
           />
-          <br/>
+          <br />
           <button type="submit" data-testid="submitButton">
             Submit
           </button>
