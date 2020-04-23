@@ -7,11 +7,11 @@ class Login extends Component {
         <h2>Login</h2>
         <form method="POST">
           <label>
-            User Name
-            <input type="text" name="user_name" placeholder="username" />
+            Email:
+            <input type="text" name="user_name" placeholder="your email" />
           </label>
           <label>
-            Password
+            Password:
             <input type="password" name="password" placeholder="password" />
           </label>
           <br />
