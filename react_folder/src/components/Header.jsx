@@ -7,7 +7,7 @@ function Header() {
   };
   const handleClick2 = (e) => {
     e.preventDefault();
-    window.location.href = "https://localhost:3000/signup";
+    window.location.href = "http://localhost:3000/signup";
   };
 
   return (

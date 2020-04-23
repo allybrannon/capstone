@@ -4,7 +4,7 @@ import Intro from "./components/Intro";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
-import SignupPage from "./components/SignupPage";
+import Signup from "./components/Signup";
 import "./App.css";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Login />
       </Route>
       <Route path="/signup">
-        <SignupPage />
+        <Signup />
       </Route>
     </Router>
   );
